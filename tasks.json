@@ -1,0 +1,6 @@
+[
+  {"id": "T1", "title": "Prices take a currency: price(item, qty, currency)", "edits": ["shop.pricing.price"], "contract_change": true},
+  {"id": "T2", "title": "Bulk discount in the cart: bulk_total(lines)", "edits": ["shop.cart"], "contract_change": false},
+  {"id": "T3", "title": "Free shipping over 50 kg: free_over(weight_kg)", "edits": ["shop.shipping"], "contract_change": false},
+  {"id": "T4", "title": "Tax line on invoices: tax_line(lines, rate)", "edits": ["shop.invoice"], "contract_change": false}
+]
